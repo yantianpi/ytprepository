@@ -32,7 +32,7 @@ public class PersonApi {
 			model.addAttribute("person", person);
 			result="success";
 		}else{
-			model.addAttribute(name);
+			model.addAttribute("name",name);
 			result="failure";
 		}
 		return result;
